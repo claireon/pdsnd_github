@@ -1,7 +1,7 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-September 18, 2021
+September 20, 2021
 
 ### Project Title
 Analysis of Bikeshare data
@@ -10,6 +10,7 @@ Analysis of Bikeshare data
 * The project contains a python file which uses Pandas and SciPy to analyse the bikeshare data for 2017
 * The project takes the user's inputs and then produces descriptive statistics of the data based on the date and city entered.
 * The project code computes the following statistics:
+
 #1 Popular times of travel (i.e., occurs most often in the start time)
 
     most common month
