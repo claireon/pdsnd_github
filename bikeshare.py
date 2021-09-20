@@ -32,9 +32,8 @@ def get_filters():
         if city in CITY_DATA:
             confirmation = input(
                 '\nYou have opted to view data for {}. If this was an error, enter no to restart, else enter yes to continue.\n'.format(city.title())).lower()
-            if confirmation == 'yes' or confirmation == 'no':
-                if confirmation == 'yes':
-                    break
+            if confirmation == 'yes':
+                break
         else:
             print(
                 'Sorry, we do not have that data, type a city name from the 3 options provided.\n')
