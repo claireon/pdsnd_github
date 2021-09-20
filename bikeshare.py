@@ -228,7 +228,7 @@ def load_raw_data(df, city):
     Asks user whether or not to display some raw data.
 
     Displays five rows of raw data at a time.
-    Will continue to display more 5 rows at a time as long as the user specifies 'yes'.
+    Will continue to display 5 more rows at a time as long as the user specifies 'yes'.
     """
     # get user's choice to view raw data
     row = 0
