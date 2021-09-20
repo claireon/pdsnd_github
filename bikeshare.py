@@ -214,15 +214,15 @@ def user_stats(df):
         print('The most recent year of birth is:',
               int(df['Birth Year'].max()))
         print('The most common year of birth is:',
-              int(df['Birth Year'].mode()))
+              int(df['Birth Year'].mode()[0]))
     else:
-        print('Please note that no data exist for gender and year of birth for Washington')
+        print('Please note that no data exists for gender and year of birth for Washington')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
 
-def load_raw_data(df, city):
+def display_raw_data(df, city):
     """ 
     Asks user whether or not to display some raw data.
 
@@ -258,7 +258,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        load_raw_data(df, city)
+        display_raw_data(df, city)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
